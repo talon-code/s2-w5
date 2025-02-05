@@ -17,6 +17,9 @@ public class Plant{
          age +=years;
     }
 
+    public String name(){
+        return name;
+    }
     public int age(){
         return age;
     }
