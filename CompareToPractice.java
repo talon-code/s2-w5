@@ -1,5 +1,5 @@
 import java.util.*;
-class Main {
+class CompareToPractice {
   public static void main(String[] args) {
     ArrayList<String> words = new ArrayList<String>(){
       {
@@ -18,5 +18,21 @@ class Main {
       }
     };
     //we will play with compareTo here
+    char c = 'a';
+    int code = (int) c;
+    // System.out.println(code);
+
+    String s = "Dog";
+    String s1 = "dog";
+    String s2 = "doggy";
+
+    Collections.sort(words);
+
+    int res = s1.compareTo(s2);
+    System.out.println(res);
+
+
+
+
   }
 }
